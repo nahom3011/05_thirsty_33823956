@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%=shopName%></title>
+  </head>
+  <body>
+    <h1 style="color: blueviolet;">Welcome to <%=shopName%> Shop</h1>
+    <h2 style="color: chocolate;"><i>Here are some things that we sell:</i></h2>
+    <ul>
+      <% for(let i = 0; i < productCategories.length; i++) { %>
+        <li><%= productCategories[i] %></li>
+      <% } %>
+    </ul>
+  </body>
+</html>
