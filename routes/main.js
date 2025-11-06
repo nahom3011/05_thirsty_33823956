@@ -7,9 +7,19 @@ var shopData = {shopName: "The Final Draft",
                 productCategories:["Beer", "Wine", "Soft Drinks", "Hot Drinks"], 
                 shopInfo: [
                     {
-                        locations: "Fulham Broadway",
+                        location: "Fulham Broadway",
                         manager: "Dennis Richard",
                         address: "22 Summer Road, SW6 9JG"
+                    },
+                    {
+                        location: "Greenwich",
+                        manager: "Rob Harris",
+                        address: "100 Greenwich Street, SE10 7TP"
+                    },
+                    {
+                        location: "Waterloo",
+                        manager: "Shaun Mullen",
+                        address: "25 Waterloo Road, SE1 8LK"
                     }]
                 };
 
