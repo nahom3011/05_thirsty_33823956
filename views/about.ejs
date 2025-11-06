@@ -9,9 +9,11 @@
     <h2>Shop Locations</h2>
     <ul>
       <% shopLocations.forEach(function(location) { %>
-        <h3><%=shop.name%></h3>
-        <p><b>Address:</b> <%=shop.address%></p>
-        <p><b>Manager:</b> <%=shop.manager%></p>
+        <li>
+          <h3><%=shop.name%></h3>
+          <p><b>Address:</b> <%=shop.address%></p>
+          <p><b>Manager:</b> <%=shop.manager%></p>
+        </li>
       <% }); %>
     </ul>
   </body>
