@@ -8,11 +8,11 @@
     <p style="color: blue;">We sell all sorts of drinks</p>
     <h2>Shop Locations</h2>
     <ul>
-      <% shopLocations.forEach(function(location) { %>
+      <% shopInfo.forEach(function(location) { %>
         <li>
-          <h3><%=shop.name%></h3>
-          <p><b>Address:</b> <%=shop.address%></p>
-          <p><b>Manager:</b> <%=shop.manager%></p>
+          <h3><%= location.location %></h3>
+          <p><b>Address:</b> <%= location.address %></p>
+          <p><b>Manager:</b> <%= location.manager %></p>
         </li>
       <% }); %>
     </ul>
